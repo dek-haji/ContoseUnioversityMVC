@@ -72,6 +72,34 @@ namespace ContoseUniversity.Data
                 context.Enrollments.Add(e);
             }
             context.SaveChanges();
+
+            var departments = new Department[]
+            {
+                new Department{DepartmentID=1, DepartmentName="Engineering"},
+                new Department{DepartmentID=2, DepartmentName="Medical"},
+                new Department{DepartmentID=3, DepartmentName="Science"},
+                new Department{DepartmentID=4, DepartmentName="Math"}
+            };
+            foreach (Department e in departments)
+            {
+                context.Departments.Add(e);
+                context.SaveChanges();
+            }
+
+            var instructors = new Instructor[]
+            {
+                new Instructor{InstructorID=1, Name="Dek",},
+                new Instructor{InstructorID=2, Name="HAji",},
+                new Instructor{InstructorID=3,Name="Said",},
+                new Instructor{InstructorID=4, Name="Hassan",},
+
+            };
+            foreach (Instructor e in instructors)
+            {
+                context.Instructors.Add(e);
+                context.SaveChanges();
+            }
+
         }
     }
 }
