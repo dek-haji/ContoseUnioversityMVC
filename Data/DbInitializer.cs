@@ -91,7 +91,6 @@ namespace ContoseUniversity.Data
                 new Instructor{InstructorID=1, Name="Dek",},
                 new Instructor{InstructorID=2, Name="HAji",},
                 new Instructor{InstructorID=3,Name="Said",},
-                new Instructor{InstructorID=4, Name="Hassan",},
 
             };
             foreach (Instructor e in instructors)
