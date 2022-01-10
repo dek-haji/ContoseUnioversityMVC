@@ -203,3 +203,4 @@ C:\Users\Dek\source\repos\ContoseUniversity\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\Dek\source\repos\ContoseUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Instructors\Details.cshtml.g.cs
 C:\Users\Dek\source\repos\ContoseUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Instructors\Edit.cshtml.g.cs
 C:\Users\Dek\source\repos\ContoseUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Instructors\Index.cshtml.g.cs
+C:\Users\Dek\source\repos\ContoseUniversity\obj\Debug\netcoreapp3.1\ContoseUniversity.csprojAssemblyReference.cache
